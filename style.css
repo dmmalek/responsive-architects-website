@@ -21,6 +21,9 @@
 .dark-3 {
   color: rgb(114, 114, 114);
 }
+.orange {
+  color: rgb(255, 144, 14);
+}
 .bg-color {
   background-color: rgba(255, 144, 14, 0.1);
 }
@@ -82,6 +85,33 @@ nav {
 .banner-img img {
   width: 100%;
 }
+main {
+  margin: 1rem 2.5rem;
+}
+/* features section  */
+.features {
+  gap: 3rem;
+}
+.features-img {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+.features-img img {
+  width: 300px;
+}
+.features-content h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  margin-bottom: 1rem;
+}
+.features-content p {
+  text-align: left;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  margin-bottom: 1rem;
+}
 @media screen and (max-width: 576px) {
   /* nav section  */
   .header {
@@ -109,5 +139,13 @@ nav {
     color: white;
     font-size: 1rem;
     font-weight: 600;
+  }
+
+  /* features section  */
+  .features {
+    flex-direction: column-reverse;
+  }
+  .features-img img {
+    width: 100%;
   }
 }
