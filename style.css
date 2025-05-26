@@ -300,3 +300,30 @@ footer {
     font-size: 0.8rem;
   }
 }
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .features {
+    flex-direction: column-reverse;
+  }
+  .love-enjoy {
+    flex-direction: column;
+  }
+  .some-facts-cards {
+    padding: 1rem;
+  }
+  .some-facts-cards img {
+    width: 40px;
+  }
+  .some-facts-cards h3 {
+    font-size: 1.8rem;
+  }
+  .some-facts-cards p {
+    font-size: 0.8rem;
+  }
+  .sponsor-image {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  .sponsor-image img {
+    width: 120px;
+  }
+}
